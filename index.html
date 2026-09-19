@@ -73,12 +73,20 @@
                 </h1>
             </div>
 
-            <div class="fade-in-up-delay-3 flex items-center gap-4 sm:gap-6 mt-4">
-                <div class="h-[1px] w-12 sm:w-24 bg-gold/50"></div>
-                <p
-                    class="font-sans uppercase tracking-[0.2em] sm:tracking-[0.3em] text-sm sm:text-base md:text-lg text-champagne">
-                    January 10, 2032</p>
-                <div class="h-[1px] w-12 sm:w-24 bg-gold/50"></div>
+            <div class="fade-in-up-delay-3 mt-8 sm:mt-12">
+                <div class="inline-flex items-center gap-3 px-8 py-4 sm:px-10 sm:py-5 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.3)] hover:bg-white/10 hover:border-gold/30 hover:scale-105 transition-all duration-500 cursor-default group relative overflow-hidden">
+                    <!-- Shimmer effect -->
+                    <div class="absolute inset-0 bg-gradient-to-r from-gold/0 via-gold/20 to-gold/0 -translate-x-[150%] group-hover:translate-x-[150%] transition-transform duration-1000 ease-out-expo"></div>
+                    
+                    <!-- Calendar Icon -->
+                    <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gold group-hover:animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    
+                    <p class="font-sans uppercase tracking-[0.2em] sm:tracking-[0.3em] text-xs sm:text-sm font-medium text-champagne/90 group-hover:text-white transition-colors duration-500">
+                        January 10, 2032
+                    </p>
+                </div>
             </div>
         </div>
 
